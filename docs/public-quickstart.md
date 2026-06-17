@@ -10,13 +10,14 @@ It points to the deeper documents without repeating every detail.
 
 Evergreen Home Control is a local-first smart-home command centre built around Home Assistant.
 
-It starts with clear status, safe checks, and mock testing before any real-world control work.
+It starts with clear status, safe checks, and mock testing before later live use.
 
 ## Read first
 
-Start with these three files:
+Start with these files:
 
 ```text
+docs/public-starter-checklist.md
 docs/public-starter-bom.md
 docs/first-build-order-guide.md
 docs/device-compatibility-rules.md
@@ -24,13 +25,14 @@ docs/device-compatibility-rules.md
 
 They explain:
 
+- the short checklist to follow
 - what hardware to use or reuse
 - what order to build in
 - how to choose first devices safely
 
 ## Safety first
 
-Before adding real devices, read:
+Before adding live devices, read:
 
 ```text
 docs/security-model.md
@@ -58,6 +60,12 @@ Follow this order:
 7. Run sample tests.
 8. Add only one simple test device later.
 9. Stop and review.
+```
+
+For the copyable checklist version, use:
+
+```text
+docs/public-starter-checklist.md
 ```
 
 ## Run the app locally
@@ -94,19 +102,11 @@ The local template test should refuse to run unless private local settings are s
 
 That refusal is intentional.
 
-## Do not commit private details
-
-Do not commit:
-
-- real device names
-- local network details
-- access tokens
-- passwords
-- addresses
-- real dashboard screenshots
-- room-sensitive information
+## Keep private details private
 
 Use mock names in the public repo.
+
+Keep private setup details in private local notes only.
 
 ## Good first result
 
@@ -115,7 +115,7 @@ A good first result is:
 - Home Assistant opens locally
 - Evergreen mock dashboard opens
 - sample tests pass
-- no private details are committed
+- private details stay out of GitHub
 - no complex system is added too early
 
 ## Where to go next
@@ -123,6 +123,7 @@ A good first result is:
 | Need | File |
 |---|---|
 | Full docs map | `docs/README.md` |
+| Starter checklist | `docs/public-starter-checklist.md` |
 | Starter BOM | `docs/public-starter-bom.md` |
 | Build order | `docs/first-build-order-guide.md` |
 | Compatibility rules | `docs/device-compatibility-rules.md` |
