@@ -1,0 +1,16 @@
+{
+  "rooms": [
+    "Living room",
+    "Hall",
+    "Kitchen",
+    "Bedroom",
+    "Office"
+  ],
+  "priority_order": [
+    "Safety",
+    "Comfort",
+    "Lights",
+    "Cameras",
+    "Diagnostics"
+  ]
+}
