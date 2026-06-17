@@ -1,0 +1,9 @@
+{
+  "homeAssistantUrl": "http://homeassistant.local:8123",
+  "mode": "readonly",
+  "notes": [
+    "Example config only.",
+    "Do not place private access values in committed files.",
+    "The real authenticated connection will be added in a later local-only step."
+  ]
+}
