@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "name": "available normal light",
+      "device": {
+        "entity_id": "light.living_room_lamp",
+        "state": "on"
+      },
+      "expectedHealth": "healthy"
+    },
+    {
+      "name": "unavailable sensor",
+      "device": {
+        "entity_id": "sensor.hall_temperature",
+        "state": "unavailable"
+      },
+      "expectedHealth": "offline"
+    },
+    {
+      "name": "unknown sensor",
+      "device": {
+        "entity_id": "sensor.hall_motion",
+        "state": "unknown"
+      },
+      "expectedHealth": "unknown"
+    },
+    {
+      "name": "low battery door sensor",
+      "device": {
+        "entity_id": "binary_sensor.front_door",
+        "state": "closed",
+        "battery": 12
+      },
+      "expectedHealth": "low_battery"
+    },
+    {
+      "name": "stale sensor",
+      "device": {
+        "entity_id": "sensor.hall_motion",
+        "state": "clear",
+        "last_seen_days": 3
+      },
+      "expectedHealth": "stale"
+    }
+  ]
+}
