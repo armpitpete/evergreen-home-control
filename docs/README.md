@@ -8,6 +8,7 @@
 | See the readable roadmap | `docs/milestone-roadmap.md` |
 | Understand the project purpose | `docs/product-positioning.md` |
 | See the public page draft | `docs/public-project-page-copy-draft.md` |
+| See the planning BOM | `docs/planning-bom.md` |
 
 ## Setup and safe testing
 
@@ -36,6 +37,7 @@
 | Read-only connector details | `docs/home-assistant-readonly-connector.md` |
 | Real local read-only guide | `docs/real-local-readonly-connector-guide.md` |
 | First integration decision | `docs/first-integration-decision.md` |
+| Planning BOM | `docs/planning-bom.md` |
 
 ## Open-source and contribution
 
