@@ -1,24 +1,24 @@
 # Next Issue
 
-## #12 — Add local-only real read-test instructions
+## #13 — Add local-only real read test script skeleton
 
 ## Scope
 
-Documentation only.
+Code skeleton only, with no private setup values.
 
 ## Goal
 
-Explain how to move from the sample command-line read test to a real local read test without committing private setup values.
+Prepare the structure for a future local-only real read test while keeping the public repo safe.
 
 ## Must do
 
 - Keep the visible dashboard mock-first.
-- Keep the real test local-only.
-- Read state data only.
-- Print high-level counts only by default.
+- Keep sample tests working.
+- Add only a skeleton or template.
+- Make clear that local setup values are not committed.
+- Keep output high-level by default.
 - Send no service calls.
-- Add strong stop warnings.
 
 ## Good enough
 
-The project has a clear safe bridge from sample terminal testing to real local read-only testing.
+The repo has a safe placeholder for the first real local read test without containing private details or controlling devices.
