@@ -1,6 +1,6 @@
 # Next Issue
 
-## #19 — Add security model outline
+## #20 — Add threat model checklist
 
 ## Scope
 
@@ -8,17 +8,15 @@ Documentation only.
 
 ## Goal
 
-Define the first security model for Evergreen Home Control before adding real Home Assistant data, controls, AI actions, cameras, locks, heating, alarms, or safety systems.
+Turn the security model into a short checklist that can be used before future features are accepted.
 
 ## Must do
 
-- Define trust boundaries.
-- Define allowed actions.
-- Define blocked actions.
-- Define privacy rules.
-- Define audit/logging expectations.
-- Keep it plain and practical.
+- List common failure modes.
+- Add simple review questions.
+- Include AI, privacy, local-only testing, and permission-level checks.
+- Keep it short enough to use during issue review.
 
 ## Good enough
 
-The project has a clear security model before any real smart-home control features are designed.
+Every future issue has a quick safety checklist to apply before code is added.
