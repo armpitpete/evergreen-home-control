@@ -4,6 +4,7 @@
 
 | Need | File |
 |---|---|
+| Quickstart for new readers | `docs/public-quickstart.md` |
 | Understand the current project state | `docs/project-status-checkpoint.md` |
 | See the readable roadmap | `docs/milestone-roadmap.md` |
 | Understand the project purpose | `docs/product-positioning.md` |
