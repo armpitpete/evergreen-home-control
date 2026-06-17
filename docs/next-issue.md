@@ -1,6 +1,6 @@
 # Next Issue
 
-## #28 — Add simple page publishing plan
+## #29 — Add docs index
 
 ## Scope
 
@@ -8,14 +8,14 @@ Documentation only.
 
 ## Goal
 
-Plan the simplest way to present the public project page later.
+Create a short index of the main docs so readers can find the right file quickly.
 
 ## Must do
 
-- Compare a few simple publishing options.
-- Pick the least complicated path.
-- Avoid overbuilding.
+- Group docs by purpose.
+- Link setup, safety, roadmap, public copy, and contribution files.
+- Keep it short.
 
 ## Good enough
 
-The project has a clear next publishing step.
+A reader can find the correct document without scanning the whole docs folder.
