@@ -25,6 +25,12 @@ npm run dev
 
 Then open the local URL shown by Vite.
 
+Full safe setup guide:
+
+```text
+../docs/local-setup.md
+```
+
 ## Data source
 
 The dashboard tries to load:
