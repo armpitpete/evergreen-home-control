@@ -1,6 +1,6 @@
 # Next Issue
 
-## #14 — Add safe local test checklist
+## #15 — Add README links to testing docs
 
 ## Scope
 
@@ -8,15 +8,15 @@ Documentation only.
 
 ## Goal
 
-Create a short checklist for running the mock dashboard, sample connector page, sample terminal test, and local read template in the correct order.
+Make the root README point clearly to the safe setup guide and test checklist.
 
 ## Must do
 
-- Keep the steps short.
-- Define pass/fail signs.
-- Keep the visible dashboard mock-first.
-- Stop before controls, AI, cameras, locks, heating, alarms, smoke, or safety systems.
+- Link the safe local test checklist.
+- Link the sample terminal test guide.
+- Link the local read template guide.
+- Keep the warning that the dashboard is mock-first.
 
 ## Good enough
 
-A user can follow one checklist before attempting any real local read-only test.
+A new visitor can find the safe testing path from the README.
