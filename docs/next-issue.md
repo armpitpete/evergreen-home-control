@@ -1,6 +1,6 @@
 # Next Issue
 
-## #40 — Add public docs polish pass
+## #41 — Add release checkpoint v0.40
 
 ## Scope
 
@@ -8,16 +8,15 @@ Documentation only.
 
 ## Goal
 
-Check the public-facing starter documents for flow and duplication.
+Create a short release-style checkpoint for the project after the public starter docs polish pass.
 
 ## Must do
 
-- Review the quickstart.
-- Review the starter checklist.
-- Review the public starter BOM.
-- Review the first build order guide.
-- Keep changes small.
+- Summarise what is now ready.
+- Summarise what is still blocked.
+- Point to the quickstart and starter checklist.
+- Keep it short.
 
 ## Good enough
 
-The public starter path feels clean and ready for new readers.
+The repo has a clear v0.40 checkpoint that explains the current public-ready state.
