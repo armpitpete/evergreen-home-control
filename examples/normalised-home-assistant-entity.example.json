@@ -1,0 +1,13 @@
+{
+  "entityId": "light.living_room_lamp",
+  "domain": "light",
+  "name": "Living Room Lamp",
+  "state": "on",
+  "area": "Unknown",
+  "deviceType": "light",
+  "health": "healthy",
+  "lastChanged": "2026-06-17T08:00:00Z",
+  "attributes": {
+    "friendly_name": "Living Room Lamp"
+  }
+}
