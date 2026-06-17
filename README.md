@@ -13,16 +13,23 @@ The home system should survive.
 
 ## Product positioning
 
-For the short public explanation, see:
+For the short public explanation and repo description options, see:
 
 ```text
 docs/product-positioning.md
+docs/github-description-suggestions.md
 ```
 
 Public short description:
 
 ```text
 A local-first smart-home command centre built on Home Assistant, designed to keep homes understandable, repairable, and current as devices and AI tools change.
+```
+
+Recommended GitHub About description:
+
+```text
+Local-first smart-home command centre built on Home Assistant, currently focused on safe mock dashboards, device health checks, and read-only preparation.
 ```
 
 ## Project rules and contribution
