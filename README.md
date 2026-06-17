@@ -19,11 +19,12 @@ Start here before changing the project:
 CONTRIBUTING.md
 docs/project-rules.md
 docs/project-status-checkpoint.md
+docs/milestone-roadmap.md
 ```
 
 ## Security model
 
-Read this before designing real Home Assistant data access, controls, AI actions, cameras, locks, heating, alarms, or safety-system features:
+Read this before designing real Home Assistant data access or future action features:
 
 ```text
 docs/security-model.md
@@ -109,16 +110,6 @@ Home Assistant
 Zigbee / Matter / Thread / Wi‑Fi / ESPHome / cameras
 ```
 
-## What the project must not do yet
-
-- It must not depend on Alexa, Google, Apple, or any single cloud vendor.
-- It must not let AI perform dangerous actions without confirmation.
-- It must not try to replace Home Assistant.
-- It must not start with camera AI, smart locks, or heating control.
-- It must not require every device to be replaced.
-- It must not commit private access values.
-- It must not wire the visible dashboard to real home data before local read-only testing is proven.
-
 ## Safety rule
 
 AI may explain.  
@@ -126,32 +117,25 @@ AI may suggest.
 AI may draft automations.  
 Home Assistant executes confirmed actions.
 
-## Planned stages
+## Roadmap
 
-| Version | Focus | Status |
-|---|---|---:|
-| v0.1 | Project brief and architecture | Done |
-| v0.2 | Read-only dashboard using mock data | Done |
-| v0.3 | Home Assistant read-only connection plan | Done |
-| v0.4 | Device health checks | Done |
-| v0.5 | Plain-English home summary | Done |
-| v0.6 | Safe local setup instructions | Done |
-| v0.7 | Read-only Home Assistant connector | Done |
-| v0.8 | Open-source boundary | Done |
-| v0.9 | Sample connector test mode | Done |
-| v0.10 | Licence review and local read guide | Done |
-| v0.11 | First real integration method decision | Done |
-| v0.12 | Command-line sample read test | Done |
-| v0.13 | Local-only real read-test instructions | Done |
-| v0.14 | Local read test template | Done |
-| v0.15 | Safe local test checklist | Done |
-| v0.16 | README testing links | Done |
-| v0.17 | Project status checkpoint | Done |
-| v0.18 | First real read-test decision | Done |
-| v0.19 | Contributor guide and project rules | Done |
-| v0.20 | Security model outline | Done |
-| v0.21 | Threat model checklist | Done |
-| v1.0 | Reliable local-first home command centre | Later |
+For the readable phase roadmap, see:
+
+```text
+docs/milestone-roadmap.md
+```
+
+Current status:
+
+```text
+Foundation: done
+Mock dashboard: done
+Rule-based status logic: done
+Read-only preparation: done, not live-tested
+Contribution/governance: done
+Security model: done
+First real local read-only test: waiting for home checklist
+```
 
 ## Repo status
 
