@@ -1,0 +1,24 @@
+# Evergreen Home Control — Status Light Template
+# Placeholder template for a simple house-status indicator.
+
+esphome:
+  name: evergreen-status-light
+
+esp32:
+  board: esp32dev
+
+logger:
+
+api:
+
+ota:
+
+output:
+  - platform: gpio
+    pin: GPIO2
+    id: status_led
+
+light:
+  - platform: binary
+    name: "Evergreen Status Light"
+    output: status_led
