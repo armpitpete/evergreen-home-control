@@ -1,6 +1,6 @@
 # Next Issue
 
-## #29 — Add docs index
+## #30 — Add documentation cleanup pass
 
 ## Scope
 
@@ -8,14 +8,15 @@ Documentation only.
 
 ## Goal
 
-Create a short index of the main docs so readers can find the right file quickly.
+Check the main docs for duplicated wording, stale next-step notes, and confusing navigation.
 
 ## Must do
 
-- Group docs by purpose.
-- Link setup, safety, roadmap, public copy, and contribution files.
-- Keep it short.
+- Review the README and docs index.
+- Check main project docs for repeated or outdated next-step text.
+- Keep changes small.
+- Do not change app behaviour.
 
 ## Good enough
 
-A reader can find the correct document without scanning the whole docs folder.
+The documentation set feels clean enough to pause until the home checklist can be run.
