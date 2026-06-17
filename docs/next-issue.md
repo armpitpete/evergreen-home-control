@@ -1,6 +1,6 @@
 # Next Issue
 
-## #24 — Add GitHub repository description suggestions
+## #25 — Add topic/tag suggestions
 
 ## Scope
 
@@ -8,15 +8,14 @@ Documentation only.
 
 ## Goal
 
-Provide short description options for the GitHub repo About field, README tagline, and future project page.
+Suggest GitHub topics/tags for the repository.
 
 ## Must do
 
-- Write 3 short description options.
-- Write 3 tagline options.
-- Keep wording plain and accurate.
-- Avoid overpromising live features.
+- Suggest 8 to 12 repository topics.
+- Keep them accurate to the current project state.
+- Avoid implying live control features are already complete.
 
 ## Good enough
 
-The project has ready-to-use wording for GitHub and public pages.
+The repo has ready-to-use topic suggestions for GitHub.
