@@ -1,0 +1,28 @@
+# Evergreen Home Control — Smart Button Template
+# Placeholder template for future ESPHome work.
+# Do not wire mains power directly.
+
+esphome:
+  name: evergreen-smart-button
+
+esp32:
+  board: esp32dev
+
+logger:
+
+api:
+
+ota:
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO0
+      mode: INPUT_PULLUP
+      inverted: true
+    name: "Evergreen Smart Button"
+    on_click:
+      min_length: 50ms
+      max_length: 500ms
+      then:
+        - logger.log: "Single press detected"
