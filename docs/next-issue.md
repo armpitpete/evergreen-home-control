@@ -1,6 +1,6 @@
 # Next Issue
 
-## #22 — Add milestone roadmap cleanup
+## #24 — Add GitHub repository description suggestions
 
 ## Scope
 
@@ -8,15 +8,15 @@ Documentation only.
 
 ## Goal
 
-Condense the long v0.1 to v0.21 chain into clearer project milestones.
+Provide short description options for the GitHub repo About field, README tagline, and future project page.
 
 ## Must do
 
-- Group completed work into phases.
-- Keep real Home Assistant testing deferred until the home checklist passes.
-- Keep future work separated into read-only, controls, AI, and device-template phases.
-- Keep it easy to scan.
+- Write 3 short description options.
+- Write 3 tagline options.
+- Keep wording plain and accurate.
+- Avoid overpromising live features.
 
 ## Good enough
 
-A new reader can understand the project roadmap without reading every issue from v0.1 onward.
+The project has ready-to-use wording for GitHub and public pages.
