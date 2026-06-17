@@ -1,6 +1,6 @@
 # Next Issue
 
-## #37 — Add README quickstart link
+## #38 — Add README public builder section
 
 ## Scope
 
@@ -8,14 +8,15 @@ Documentation only.
 
 ## Goal
 
-Make the root README point clearly to the new public quickstart.
+Add a short root README section for public builders.
 
 ## Must do
 
-- Add the quickstart link near the top of README.
-- Keep the README short.
-- Avoid duplicating the quickstart content.
+- Link the public starter BOM.
+- Link the first build order guide.
+- Link the device compatibility rules.
+- Keep it short.
 
 ## Good enough
 
-New readers can find the quickstart from the repository front page.
+A public builder can find the starter-build documents from the repository front page.
