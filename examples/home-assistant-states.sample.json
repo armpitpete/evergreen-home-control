@@ -1,0 +1,30 @@
+[
+  {
+    "entity_id": "light.living_room_lamp",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Living Room Lamp"
+    },
+    "last_changed": "2026-06-17T08:00:00Z",
+    "last_updated": "2026-06-17T08:00:00Z"
+  },
+  {
+    "entity_id": "binary_sensor.front_door",
+    "state": "closed",
+    "attributes": {
+      "friendly_name": "Front Door",
+      "battery_level": 12
+    },
+    "last_changed": "2026-06-17T08:00:00Z",
+    "last_updated": "2026-06-17T08:00:00Z"
+  },
+  {
+    "entity_id": "sensor.hall_temperature",
+    "state": "unavailable",
+    "attributes": {
+      "friendly_name": "Hall Temperature"
+    },
+    "last_changed": "2026-06-17T08:00:00Z",
+    "last_updated": "2026-06-17T08:00:00Z"
+  }
+]
