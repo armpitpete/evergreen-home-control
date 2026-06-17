@@ -8,6 +8,7 @@
 | See the readable roadmap | `docs/milestone-roadmap.md` |
 | Understand the project purpose | `docs/product-positioning.md` |
 | See the public page draft | `docs/public-project-page-copy-draft.md` |
+| Build from the public starter BOM | `docs/public-starter-bom.md` |
 | See the planning BOM | `docs/planning-bom.md` |
 | Prepare the home inventory | `docs/home-inventory-worksheet.md` |
 
@@ -38,6 +39,7 @@
 | Read-only connector details | `docs/home-assistant-readonly-connector.md` |
 | Real local read-only guide | `docs/real-local-readonly-connector-guide.md` |
 | First integration decision | `docs/first-integration-decision.md` |
+| Public starter BOM | `docs/public-starter-bom.md` |
 | Planning BOM | `docs/planning-bom.md` |
 | Home inventory worksheet | `docs/home-inventory-worksheet.md` |
 
