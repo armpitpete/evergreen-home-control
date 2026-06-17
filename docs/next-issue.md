@@ -1,22 +1,24 @@
 # Next Issue
 
-## #16 — Add project status checkpoint
+## #17 — Add first real local read-only test decision
 
 ## Scope
 
-Documentation only.
+Planning only.
 
 ## Goal
 
-Create one concise status checkpoint showing what is done, what is safe to run, and what remains blocked until local testing proves the read-only path.
+Decide whether the project is ready to attempt the first real local read-only Home Assistant test on a real computer.
 
 ## Must do
 
-- List completed stages.
-- List safe commands.
-- List blocked features.
-- Define the next practical action.
+- Confirm safe checklist has passed.
+- Keep dashboard mock-first.
+- Keep test local-only.
+- Read state data only.
+- Print high-level counts only by default.
+- Add no controls.
 
 ## Good enough
 
-A returning contributor can understand the project state without reading every previous issue note.
+The next step is either approved for local read-only testing or explicitly deferred until the safe checklist has passed.
