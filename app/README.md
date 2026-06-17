@@ -2,7 +2,7 @@
 
 This is the first read-only dashboard for Evergreen Home Control.
 
-## v0.2 scope
+## Current scope
 
 This version uses mock data only.
 
@@ -35,13 +35,21 @@ The dashboard tries to load:
 
 If that fails, it uses built-in fallback data so the page still displays.
 
-## Good enough for v0.2
+## Current dashboard behaviour
 
-The page should show:
+The page shows:
 
 - room cards
 - device cards
 - current states
-- health labels
+- rule-based health labels
 - warning count
-- plain-English summary messages
+- a plain-English headline
+- a Needs attention summary
+- a Currently active summary
+
+## Current safety boundary
+
+The dashboard is still read-only.
+
+The health checker and home summary are rule-based code, not AI prompts.
