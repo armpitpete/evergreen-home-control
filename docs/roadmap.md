@@ -2,6 +2,8 @@
 
 ## v0.1 — Project foundation
 
+Status: done.
+
 - README
 - product brief
 - architecture
@@ -12,6 +14,8 @@
 
 ## v0.2 — Read-only mock dashboard
 
+Status: done.
+
 - static dashboard layout
 - load mock home data
 - show rooms
@@ -19,56 +23,76 @@
 - show status labels
 - no real Home Assistant connection yet
 
-## v0.3 — Home Assistant connection
+## v0.3 — Home Assistant read-only connection plan
 
-- read entities from Home Assistant API
-- support local token configuration
-- map entities to devices and areas where possible
-- no AI layer yet
+Status: done.
+
+- REST-first read-only plan
+- WebSocket-later plan
+- local config shape
+- secret-handling rule
+- entity normalisation shape
 
 ## v0.4 — Device health checks
+
+Status: done.
 
 - offline detection
 - low battery detection
 - stale sensor detection
-- cloud/local risk notes where known
+- unknown state detection
+- plain-English warning strings
 
 ## v0.5 — Plain-English home summary
 
-- “what needs attention”
-- “what is currently on”
-- “what is open”
-- “what is offline”
+Status: done.
 
-## v0.6 — Safe manual controls
+- “what needs attention”
+- “what is currently active”
+- rule-based grouping
+- priority sorting
+
+## v0.6 — Safe local setup instructions
+
+Status: done.
+
+- local setup guide
+- smoke-test checklist
+- safe development checklist
+- README setup link
+
+## v0.7 — Read-only Home Assistant connector
+
+Status: next.
+
+- add connector module
+- support configured Home Assistant base URL
+- fetch `/api/states`
+- normalise entities
+- keep private values out of source files
+- do not send service calls
+
+## v0.8 — Safe manual controls
+
+Status: later.
 
 - turn lights on/off
 - switch safe plugs
 - run approved scenes
 - block risky controls by default
 
-## v0.7 — AI explainer layer
+## v0.9 — AI explainer layer
+
+Status: later.
 
 - explain home status
 - explain likely automation causes
 - suggest repairs
 - draft automations but do not save automatically
 
-## v0.8 — ESPHome support
-
-- smart button template
-- room sensor template
-- status light template
-- voice satellite research note
-
-## v0.9 — Camera/NVR status
-
-- Frigate status readout
-- camera online/offline
-- recording status
-- storage warnings
-
 ## v1.0 — Reliable local-first command centre
+
+Status: later.
 
 - clear setup path
 - stable dashboard
