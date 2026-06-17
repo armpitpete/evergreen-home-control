@@ -1,22 +1,23 @@
 # Next Issue
 
-## #32 — Add home inventory worksheet
+## Home checklist — run on target computer
 
 ## Scope
 
-Documentation only.
+User-run validation.
 
 ## Goal
 
-Create a short worksheet for recording existing devices and setup details when at home.
+Run the safe local checklist and use the private inventory worksheet while at home.
 
 ## Must do
 
-- Keep it simple.
-- Match the planning BOM.
-- Record what is owned, unknown, useful later, or blocked.
-- Keep private details out of GitHub.
+- Open `docs/safe-local-test-checklist.md`.
+- Open `docs/home-inventory-worksheet.md`.
+- Run the safe tests in order.
+- Record private inventory answers locally, not in GitHub.
+- Report pass/fail for each test step.
 
 ## Good enough
 
-The user has a checklist-style worksheet ready for the home review.
+The safe local test chain is proven on the target computer, or the first failing step is identified.
