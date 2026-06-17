@@ -1,22 +1,24 @@
 # Next Issue
 
-## #30 — Add documentation cleanup pass
+## Home checklist — run on target computer
 
 ## Scope
 
-Documentation only.
+User-run validation.
 
 ## Goal
 
-Check the main docs for duplicated wording, stale next-step notes, and confusing navigation.
+Run the safe local checklist on the real computer before any real local read-only Home Assistant test.
 
 ## Must do
 
-- Review the README and docs index.
-- Check main project docs for repeated or outdated next-step text.
-- Keep changes small.
-- Do not change app behaviour.
+- Open `docs/safe-local-test-checklist.md`.
+- Run the mock dashboard test.
+- Run the sample connector page test.
+- Run the sample terminal test.
+- Run the local read template refusal test.
+- Report pass/fail for each step.
 
 ## Good enough
 
-The documentation set feels clean enough to pause until the home checklist can be run.
+The safe local test chain is proven on the target computer, or the first failing step is identified.
