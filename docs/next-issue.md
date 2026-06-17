@@ -1,24 +1,22 @@
 # Next Issue
 
-## Home checklist — run on target computer
+## #32 — Add home inventory worksheet
 
 ## Scope
 
-User-run validation.
+Documentation only.
 
 ## Goal
 
-Run the safe local checklist on the real computer before any real local read-only Home Assistant test.
+Create a short worksheet for recording existing devices and setup details when at home.
 
 ## Must do
 
-- Open `docs/safe-local-test-checklist.md`.
-- Run the mock dashboard test.
-- Run the sample connector page test.
-- Run the sample terminal test.
-- Run the local read template refusal test.
-- Report pass/fail for each step.
+- Keep it simple.
+- Match the planning BOM.
+- Record what is owned, unknown, useful later, or blocked.
+- Keep private details out of GitHub.
 
 ## Good enough
 
-The safe local test chain is proven on the target computer, or the first failing step is identified.
+The user has a checklist-style worksheet ready for the home review.
