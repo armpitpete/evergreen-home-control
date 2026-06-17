@@ -1,24 +1,24 @@
 # Next Issue
 
-## #17 — Add first real local read-only test decision
+## #18 — Run safe local checklist on a real computer
 
 ## Scope
 
-Planning only.
+User-run validation.
 
 ## Goal
 
-Decide whether the project is ready to attempt the first real local read-only Home Assistant test on a real computer.
+Run the safe local test checklist on the target computer and report the results.
 
 ## Must do
 
-- Confirm safe checklist has passed.
-- Keep dashboard mock-first.
-- Keep test local-only.
-- Read state data only.
-- Print high-level counts only by default.
-- Add no controls.
+- Run `npm run dev` from the app folder.
+- Open the mock dashboard.
+- Open the sample connector page.
+- Run `npm run test:sample-states`.
+- Run `npm run test:local-states:template`.
+- Report pass/fail for each step.
 
 ## Good enough
 
-The next step is either approved for local read-only testing or explicitly deferred until the safe checklist has passed.
+The project either proves the safe test chain works locally or identifies the first failing step to fix.
