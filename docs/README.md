@@ -9,6 +9,7 @@
 | Understand the project purpose | `docs/product-positioning.md` |
 | See the public page draft | `docs/public-project-page-copy-draft.md` |
 | See the planning BOM | `docs/planning-bom.md` |
+| Prepare the home inventory | `docs/home-inventory-worksheet.md` |
 
 ## Setup and safe testing
 
@@ -38,6 +39,7 @@
 | Real local read-only guide | `docs/real-local-readonly-connector-guide.md` |
 | First integration decision | `docs/first-integration-decision.md` |
 | Planning BOM | `docs/planning-bom.md` |
+| Home inventory worksheet | `docs/home-inventory-worksheet.md` |
 
 ## Open-source and contribution
 
@@ -75,5 +77,7 @@ When working on the real computer, run:
 ```text
 docs/safe-local-test-checklist.md
 ```
+
+Use the inventory worksheet privately while checking what already exists at home.
 
 Until then, continue with documentation, mock-data cleanup, or planning work only.
