@@ -1,6 +1,6 @@
 # Next Issue
 
-## #38 — Add README public builder section
+## #39 — Add public starter checklist
 
 ## Scope
 
@@ -8,15 +8,16 @@ Documentation only.
 
 ## Goal
 
-Add a short root README section for public builders.
+Create a one-page checklist for people following the public quickstart.
 
 ## Must do
 
-- Link the public starter BOM.
-- Link the first build order guide.
-- Link the device compatibility rules.
 - Keep it short.
+- Use checkbox format.
+- Link the public quickstart.
+- Link the starter BOM.
+- Link the first build order guide.
 
 ## Good enough
 
-A public builder can find the starter-build documents from the repository front page.
+A builder can print or copy one checklist while working through the starter path.
