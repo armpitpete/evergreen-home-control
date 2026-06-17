@@ -1,22 +1,23 @@
 # Next Issue
 
-## #41 — Add release checkpoint v0.40
+## Home checklist
 
 ## Scope
 
-Documentation only.
+User-run validation.
 
 ## Goal
 
-Create a short release-style checkpoint for the project after the public starter docs polish pass.
+Run the safe local checklist on the target computer.
 
 ## Must do
 
-- Summarise what is now ready.
-- Summarise what is still blocked.
-- Point to the quickstart and starter checklist.
-- Keep it short.
+- Open `docs/release-checkpoint-v0.40.md`.
+- Open `docs/safe-local-test-checklist.md`.
+- Run the checklist steps in order.
+- Keep private setup values out of GitHub.
+- Report the first failing step if anything fails.
 
 ## Good enough
 
-The repo has a clear v0.40 checkpoint that explains the current public-ready state.
+The safe local checklist is completed or the first failing step is identified.
