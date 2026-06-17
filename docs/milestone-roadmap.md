@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This roadmap condenses the long v0.1 to v0.21 setup chain into readable project phases.
+This roadmap condenses the long setup chain into readable project phases.
 
 Use this file to understand the project without reading every issue note.
 
@@ -84,6 +84,7 @@ Included work:
 - project rules
 - status checkpoint
 - README testing links
+- docs index
 - issue close notes
 
 Result:
@@ -104,7 +105,24 @@ Result:
 
 The project has clear trust boundaries, permission levels, AI limits, privacy rules, and review questions before live-control work begins.
 
-## Phase 7 — First real local read-only test
+## Phase 7 — Public positioning and publishing prep
+
+Status: done.
+
+Included work:
+
+- product positioning
+- GitHub description suggestions
+- topic suggestions
+- public page outline
+- public page copy draft
+- simple publishing plan
+
+Result:
+
+The project has ready public wording and a low-complexity publishing direction, without adding another site or changing app behaviour.
+
+## Phase 8 — First real local read-only test
 
 Status: waiting for home/target computer.
 
@@ -123,11 +141,11 @@ Allowed goal after checklist passes:
 - high-level counts only by default
 - no dashboard wiring yet
 
-## Phase 8 — Real dashboard read-only mode
+## Phase 9 — Real dashboard read-only mode
 
 Status: future.
 
-Only after Phase 7 passes.
+Only after Phase 8 passes.
 
 Possible work:
 
@@ -137,7 +155,7 @@ Possible work:
 - better stale-state rules
 - safer error handling
 
-## Phase 9 — Safe controls
+## Phase 10 — Safe controls
 
 Status: future, blocked.
 
@@ -150,7 +168,7 @@ Possible work later:
 - visible audit messages
 - permission-level enforcement
 
-## Phase 10 — AI explainer layer
+## Phase 11 — AI explainer layer
 
 Status: future, blocked.
 
@@ -158,7 +176,7 @@ AI may explain, summarise, and draft.
 
 AI must not directly execute actions.
 
-## Phase 11 — Device templates
+## Phase 12 — Device templates
 
 Status: future.
 
