@@ -11,19 +11,38 @@ AI models can change.
 Protocols can change.  
 The home system should survive.
 
-## v0.1 goal
+## Current status
 
-v0.1 is a status and diagnostics layer for a Home Assistant smart home.
+The project now has a mock read-only dashboard.
 
-It should show:
+It can show:
 
-- what is on
-- what is open
-- what is offline
-- which devices have low battery
-- which automations may be broken
-- what still works without cloud or AI
-- plain-English explanations of home status
+- room cards
+- device cards
+- rule-based health labels
+- warning count
+- plain-English headline
+- Needs attention summary
+- Currently active summary
+
+It still does not connect to real Home Assistant or control real devices.
+
+## Run locally
+
+See:
+
+```text
+docs/local-setup.md
+```
+
+Short version:
+
+```bash
+git clone https://github.com/armpitpete/evergreen-home-control.git
+cd evergreen-home-control/app
+npm install
+npm run dev
+```
 
 ## Architecture
 
@@ -35,13 +54,14 @@ Home Assistant
 Zigbee / Matter / Thread / Wi‑Fi / ESPHome / cameras
 ```
 
-## What v0.1 must not do
+## What the project must not do yet
 
 - It must not depend on Alexa, Google, Apple, or any single cloud vendor.
 - It must not let AI perform dangerous actions without confirmation.
 - It must not try to replace Home Assistant.
 - It must not start with camera AI, smart locks, or heating control.
 - It must not require every device to be replaced.
+- It must not commit private access values.
 
 ## Safety rule
 
@@ -52,19 +72,19 @@ Home Assistant executes confirmed actions.
 
 ## Planned stages
 
-| Version | Focus |
-|---|---|
-| v0.1 | Project brief, architecture, Home Assistant entity/status model |
-| v0.2 | Read-only dashboard using mock data |
-| v0.3 | Home Assistant API connection |
-| v0.4 | Device health checks |
-| v0.5 | Plain-English home summary |
-| v0.6 | Safe manual controls |
-| v0.7 | AI explainer layer |
-| v0.8 | ESPHome templates |
-| v0.9 | Camera/NVR status integration |
-| v1.0 | Reliable local-first home command centre |
+| Version | Focus | Status |
+|---|---|---:|
+| v0.1 | Project brief and architecture | Done |
+| v0.2 | Read-only dashboard using mock data | Done |
+| v0.3 | Home Assistant read-only connection plan | Done |
+| v0.4 | Device health checks | Done |
+| v0.5 | Plain-English home summary | Done |
+| v0.6 | Safe local setup instructions | Done |
+| v0.7 | Read-only Home Assistant connector | Next |
+| v0.8 | Safe manual controls | Later |
+| v0.9 | AI explainer layer | Later |
+| v1.0 | Reliable local-first home command centre | Later |
 
 ## Repo status
 
-This repository is intentionally starting as a planning and architecture project. Code should only be added after the v0.1 rules are clear.
+The repo is now ready for a local mock-dashboard run and a future read-only Home Assistant connector.
