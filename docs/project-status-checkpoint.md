@@ -25,6 +25,17 @@ No real Home Assistant data is wired into the dashboard yet.
 - local read test template
 - safe local test checklist
 - README testing links
+- contributor guide
+- project rules
+- security model
+- action permission model
+- threat model checklist
+- milestone roadmap
+- product positioning
+- public page outline
+- public page copy draft
+- simple publishing plan
+- docs index
 
 ## Safe to run
 
@@ -66,9 +77,9 @@ Real dashboard wiring later.
 Controls much later.
 ```
 
-## Next practical action
+## Current practical next action
 
-Run the safe local test checklist on a real computer:
+Run the safe local test checklist on the target computer:
 
 ```text
 docs/safe-local-test-checklist.md
