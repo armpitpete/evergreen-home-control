@@ -11,6 +11,16 @@ AI models can change.
 Protocols can change.  
 The home system should survive.
 
+## Project rules and contribution
+
+Start here before changing the project:
+
+```text
+CONTRIBUTING.md
+docs/project-rules.md
+docs/project-status-checkpoint.md
+```
+
 ## Open-source position
 
 This project should be open source.
@@ -126,6 +136,9 @@ Home Assistant executes confirmed actions.
 | v0.14 | Local read test template | Done |
 | v0.15 | Safe local test checklist | Done |
 | v0.16 | README testing links | Done |
+| v0.17 | Project status checkpoint | Done |
+| v0.18 | First real read-test decision | Done |
+| v0.19 | Contributor guide and project rules | Done |
 | v1.0 | Reliable local-first home command centre | Later |
 
 ## Repo status
