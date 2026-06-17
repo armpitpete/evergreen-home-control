@@ -1,7 +1,8 @@
 import { HEALTH_LABELS, applyHealthToHomeData } from './deviceHealth.js';
+import { buildHomeSummary } from './homeSummary.js';
 
 const fallbackData = {
-  generated_for: 'Evergreen Home Control v0.4 fallback data',
+  generated_for: 'Evergreen Home Control v0.5 fallback data',
   rooms: [
     {
       name: 'Living room',
@@ -89,14 +90,31 @@ function renderSummary(data) {
   const summaryList = document.querySelector('#summary-list');
   summaryList.innerHTML = '';
 
-  const summaryItems = data.summary?.length
-    ? data.summary
-    : ['No summary messages available.'];
+  const summary = buildHomeSummary(data);
 
-  summaryItems.forEach((message) => {
-    const item = document.createElement('li');
-    item.textContent = message;
-    summaryList.appendChild(item);
+  const headline = document.createElement('li');
+  headline.className = 'summary-headline';
+  headline.textContent = summary.headline;
+  summaryList.appendChild(headline);
+
+  summary.sections.forEach((section) => {
+    const sectionItem = document.createElement('li');
+    sectionItem.className = 'summary-section';
+
+    const title = document.createElement('h3');
+    title.textContent = section.title;
+
+    const items = document.createElement('ul');
+    items.className = 'summary-sublist';
+
+    section.items.forEach((message) => {
+      const item = document.createElement('li');
+      item.textContent = message;
+      items.appendChild(item);
+    });
+
+    sectionItem.append(title, items);
+    summaryList.appendChild(sectionItem);
   });
 }
 
