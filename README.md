@@ -11,9 +11,15 @@ AI models can change.
 Protocols can change.  
 The home system should survive.
 
-## Docs index
+## Quickstart
 
-For a quick map of the project documentation, see:
+New readers should start here:
+
+```text
+docs/public-quickstart.md
+```
+
+Then use the docs index for the full documentation map:
 
 ```text
 docs/README.md
