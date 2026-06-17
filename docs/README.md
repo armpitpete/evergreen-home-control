@@ -9,6 +9,7 @@
 | Understand the project purpose | `docs/product-positioning.md` |
 | See the public page draft | `docs/public-project-page-copy-draft.md` |
 | Build from the public starter BOM | `docs/public-starter-bom.md` |
+| Follow the first build order | `docs/first-build-order-guide.md` |
 | Choose compatible starter devices | `docs/device-compatibility-rules.md` |
 | See the planning BOM | `docs/planning-bom.md` |
 | Prepare the home inventory | `docs/home-inventory-worksheet.md` |
@@ -41,6 +42,7 @@
 | Real local read-only guide | `docs/real-local-readonly-connector-guide.md` |
 | First integration decision | `docs/first-integration-decision.md` |
 | Public starter BOM | `docs/public-starter-bom.md` |
+| First build order guide | `docs/first-build-order-guide.md` |
 | Device compatibility rules | `docs/device-compatibility-rules.md` |
 | Planning BOM | `docs/planning-bom.md` |
 | Home inventory worksheet | `docs/home-inventory-worksheet.md` |
