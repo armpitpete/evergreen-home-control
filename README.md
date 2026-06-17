@@ -11,9 +11,23 @@ AI models can change.
 Protocols can change.  
 The home system should survive.
 
+## Open-source position
+
+This project should be open source.
+
+The public repo should contain code, docs, examples, templates, mock data, and safe test fixtures only.
+
+Real home configuration and private deployment details must stay outside the repo.
+
+See:
+
+```text
+docs/open-source-position.md
+```
+
 ## Current status
 
-The project now has a mock read-only dashboard.
+The project now has a mock read-only dashboard and a read-only Home Assistant connector module.
 
 It can show:
 
@@ -25,7 +39,7 @@ It can show:
 - Needs attention summary
 - Currently active summary
 
-It still does not connect to real Home Assistant or control real devices.
+The visible dashboard remains mock-first by default.
 
 ## Run locally
 
@@ -80,11 +94,11 @@ Home Assistant executes confirmed actions.
 | v0.4 | Device health checks | Done |
 | v0.5 | Plain-English home summary | Done |
 | v0.6 | Safe local setup instructions | Done |
-| v0.7 | Read-only Home Assistant connector | Next |
-| v0.8 | Safe manual controls | Later |
-| v0.9 | AI explainer layer | Later |
+| v0.7 | Read-only Home Assistant connector | Done |
+| v0.8 | Open-source boundary | Done |
+| v0.9 | Local connector test mode | Next |
 | v1.0 | Reliable local-first home command centre | Later |
 
 ## Repo status
 
-The repo is now ready for a local mock-dashboard run and a future read-only Home Assistant connector.
+The repo is now ready for a local mock-dashboard run and future local read-only Home Assistant connector testing.
