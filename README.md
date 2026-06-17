@@ -11,6 +11,14 @@ AI models can change.
 Protocols can change.  
 The home system should survive.
 
+## Docs index
+
+For a quick map of the project documentation, see:
+
+```text
+docs/README.md
+```
+
 ## Product positioning
 
 For the short public explanation, repo description options, and topic suggestions, see:
