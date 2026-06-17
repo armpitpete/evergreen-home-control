@@ -1,23 +1,23 @@
 # Next Issue
 
-## Home checklist — run on target computer
+## #34 — Add device compatibility rules
 
 ## Scope
 
-User-run validation.
+Documentation only.
 
 ## Goal
 
-Run the safe local checklist and use the private inventory worksheet while at home.
+Add simple rules for choosing starter devices that work well with the public BOM.
 
 ## Must do
 
-- Open `docs/safe-local-test-checklist.md`.
-- Open `docs/home-inventory-worksheet.md`.
-- Run the safe tests in order.
-- Record private inventory answers locally, not in GitHub.
-- Report pass/fail for each test step.
+- Prefer local-first compatibility.
+- Prefer devices with clear Home Assistant support.
+- Prefer low-risk starter devices.
+- Avoid sensitive systems for early builds.
+- Keep it plain and short.
 
 ## Good enough
 
-The safe local test chain is proven on the target computer, or the first failing step is identified.
+A public builder can choose first devices without guessing or buying the wrong type of kit.
