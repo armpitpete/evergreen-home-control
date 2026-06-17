@@ -63,32 +63,33 @@ Status: done.
 
 ## v0.7 — Read-only Home Assistant connector
 
+Status: done.
+
+- connector module
+- read-only `/api/states` fetch function
+- Home Assistant entity normaliser
+- temporary Home Assistant room grouping
+- connector documentation
+- sample states response
+
+## v0.8 — Open-source boundary
+
+Status: done.
+
+- open-source position note
+- public/private repo boundary
+- MIT licence remains current default
+- real home data stays outside the repo
+
+## v0.9 — Local connector test mode
+
 Status: next.
 
-- add connector module
-- support configured Home Assistant base URL
-- fetch `/api/states`
-- normalise entities
-- keep private values out of source files
-- do not send service calls
-
-## v0.8 — Safe manual controls
-
-Status: later.
-
-- turn lights on/off
-- switch safe plugs
-- run approved scenes
-- block risky controls by default
-
-## v0.9 — AI explainer layer
-
-Status: later.
-
-- explain home status
-- explain likely automation causes
-- suggest repairs
-- draft automations but do not save automatically
+- add safe local test mode
+- keep mock dashboard as default
+- allow local-only connector testing
+- avoid committing private setup values
+- send no service calls
 
 ## v1.0 — Reliable local-first command centre
 
