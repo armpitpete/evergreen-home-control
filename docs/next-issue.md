@@ -1,6 +1,6 @@
 # Next Issue
 
-## #20 — Add threat model checklist
+## #22 — Add milestone roadmap cleanup
 
 ## Scope
 
@@ -8,15 +8,15 @@ Documentation only.
 
 ## Goal
 
-Turn the security model into a short checklist that can be used before future features are accepted.
+Condense the long v0.1 to v0.21 chain into clearer project milestones.
 
 ## Must do
 
-- List common failure modes.
-- Add simple review questions.
-- Include AI, privacy, local-only testing, and permission-level checks.
-- Keep it short enough to use during issue review.
+- Group completed work into phases.
+- Keep real Home Assistant testing deferred until the home checklist passes.
+- Keep future work separated into read-only, controls, AI, and device-template phases.
+- Keep it easy to scan.
 
 ## Good enough
 
-Every future issue has a quick safety checklist to apply before code is added.
+A new reader can understand the project roadmap without reading every issue from v0.1 onward.
