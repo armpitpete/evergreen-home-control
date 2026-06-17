@@ -1,6 +1,6 @@
 # Next Issue
 
-## #39 — Add public starter checklist
+## #40 — Add public docs polish pass
 
 ## Scope
 
@@ -8,16 +8,16 @@ Documentation only.
 
 ## Goal
 
-Create a one-page checklist for people following the public quickstart.
+Check the public-facing starter documents for flow and duplication.
 
 ## Must do
 
-- Keep it short.
-- Use checkbox format.
-- Link the public quickstart.
-- Link the starter BOM.
-- Link the first build order guide.
+- Review the quickstart.
+- Review the starter checklist.
+- Review the public starter BOM.
+- Review the first build order guide.
+- Keep changes small.
 
 ## Good enough
 
-A builder can print or copy one checklist while working through the starter path.
+The public starter path feels clean and ready for new readers.
