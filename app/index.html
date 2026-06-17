@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evergreen Home Control</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Evergreen Home Control v0.2</p>
+          <h1>Read-only home status</h1>
+          <p class="lede">
+            Mock smart-home dashboard. No real Home Assistant connection. No AI. No device control.
+          </p>
+        </div>
+        <section class="status-card" aria-labelledby="system-status-title">
+          <h2 id="system-status-title">System mode</h2>
+          <p class="mode-pill">Safe mock mode</p>
+          <p class="small">Loaded from example data, with built-in fallback.</p>
+        </section>
+      </header>
+
+      <section class="summary-panel" aria-labelledby="summary-title">
+        <div>
+          <p class="eyebrow">Plain-English summary</p>
+          <h2 id="summary-title">What needs attention</h2>
+        </div>
+        <ul id="summary-list" class="summary-list"></ul>
+      </section>
+
+      <section class="metrics" aria-label="Home status totals">
+        <article>
+          <span id="metric-rooms">0</span>
+          <p>Rooms</p>
+        </article>
+        <article>
+          <span id="metric-devices">0</span>
+          <p>Devices</p>
+        </article>
+        <article>
+          <span id="metric-warnings">0</span>
+          <p>Warnings</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="rooms-title">
+        <div class="section-heading">
+          <p class="eyebrow">Rooms and devices</p>
+          <h2 id="rooms-title">Current mock home state</h2>
+        </div>
+        <div id="rooms-grid" class="rooms-grid"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
