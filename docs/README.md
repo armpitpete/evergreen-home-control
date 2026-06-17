@@ -4,6 +4,7 @@
 
 | Need | File |
 |---|---|
+| Current release checkpoint | `docs/release-checkpoint-v0.40.md` |
 | Quickstart for new readers | `docs/public-quickstart.md` |
 | Printable/copyable starter checklist | `docs/public-starter-checklist.md` |
 | Understand the current project state | `docs/project-status-checkpoint.md` |
