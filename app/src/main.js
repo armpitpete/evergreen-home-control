@@ -1,5 +1,7 @@
+import { HEALTH_LABELS, applyHealthToHomeData } from './deviceHealth.js';
+
 const fallbackData = {
-  generated_for: 'Evergreen Home Control v0.2 fallback data',
+  generated_for: 'Evergreen Home Control v0.4 fallback data',
   rooms: [
     {
       name: 'Living room',
@@ -8,14 +10,12 @@ const fallbackData = {
           entity_id: 'light.living_room_lamp',
           type: 'light',
           state: 'on',
-          health: 'healthy',
           local_capable: true,
         },
         {
           entity_id: 'sensor.living_room_motion',
           type: 'motion_sensor',
           state: 'clear',
-          health: 'healthy',
           battery: 84,
         },
       ],
@@ -27,35 +27,22 @@ const fallbackData = {
           entity_id: 'binary_sensor.front_door',
           type: 'door_sensor',
           state: 'closed',
-          health: 'low_battery',
           battery: 12,
         },
         {
           entity_id: 'sensor.hall_motion',
           type: 'motion_sensor',
-          state: 'unknown',
-          health: 'stale',
+          state: 'clear',
           last_seen_days: 3,
+        },
+        {
+          entity_id: 'sensor.hall_temperature',
+          type: 'temperature_sensor',
+          state: 'unavailable',
         },
       ],
     },
   ],
-  summary: [
-    'Living room lamp is on.',
-    'Front door sensor battery is low.',
-    'Hall motion sensor has not reported for 3 days.',
-  ],
-};
-
-const healthLabels = {
-  healthy: 'Healthy',
-  offline: 'Offline',
-  stale: 'Stale',
-  low_battery: 'Low battery',
-  unknown: 'Unknown',
-  cloud_dependent: 'Cloud-dependent',
-  local_capable: 'Local-capable',
-  risky: 'Risky',
 };
 
 async function loadHomeData() {
@@ -91,7 +78,7 @@ function formatType(type) {
 }
 
 function getWarnings(data) {
-  return data.rooms.flatMap((room) =>
+  return data.warnings ?? data.rooms.flatMap((room) =>
     room.devices
       .filter((device) => device.health && device.health !== 'healthy')
       .map((device) => ({ room: room.name, device }))
@@ -152,7 +139,7 @@ function renderRooms(data) {
 
       const health = document.createElement('span');
       health.className = 'health-pill';
-      health.textContent = healthLabels[device.health] || 'Unknown';
+      health.textContent = HEALTH_LABELS[device.health] || 'Unknown';
 
       deviceHeader.append(name, health);
 
@@ -164,6 +151,7 @@ function renderRooms(data) {
         ${typeof device.battery === 'number' ? `<div><dt>Battery</dt><dd>${device.battery}%</dd></div>` : ''}
         ${typeof device.last_seen_days === 'number' ? `<div><dt>Last seen</dt><dd>${device.last_seen_days} days ago</dd></div>` : ''}
         ${device.local_capable ? '<div><dt>Control</dt><dd>Local-capable</dd></div>' : ''}
+        ${device.health_message ? `<div><dt>Health</dt><dd>${device.health_message}</dd></div>` : ''}
       `;
 
       deviceCard.append(deviceHeader, details);
@@ -176,7 +164,8 @@ function renderRooms(data) {
 }
 
 async function init() {
-  const data = await loadHomeData();
+  const rawData = await loadHomeData();
+  const data = applyHealthToHomeData(rawData);
   renderSummary(data);
   renderMetrics(data);
   renderRooms(data);
