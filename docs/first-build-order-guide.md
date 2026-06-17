@@ -7,6 +7,7 @@ Public builder guide.
 Use this after reading:
 
 ```text
+docs/public-starter-checklist.md
 docs/public-starter-bom.md
 docs/device-compatibility-rules.md
 ```
@@ -221,6 +222,12 @@ Review:
 - what was confusing
 - what needs documentation
 - whether the safe local checklist passed
+
+For the copyable version of this path, use:
+
+```text
+docs/public-starter-checklist.md
+```
 
 ## Good first build result
 
