@@ -1,24 +1,24 @@
 # Next Issue
 
-## #18 — Run safe local checklist on a real computer
+## #19 — Add security model outline
 
 ## Scope
 
-User-run validation.
+Documentation only.
 
 ## Goal
 
-Run the safe local test checklist on the target computer and report the results.
+Define the first security model for Evergreen Home Control before adding real Home Assistant data, controls, AI actions, cameras, locks, heating, alarms, or safety systems.
 
 ## Must do
 
-- Run `npm run dev` from the app folder.
-- Open the mock dashboard.
-- Open the sample connector page.
-- Run `npm run test:sample-states`.
-- Run `npm run test:local-states:template`.
-- Report pass/fail for each step.
+- Define trust boundaries.
+- Define allowed actions.
+- Define blocked actions.
+- Define privacy rules.
+- Define audit/logging expectations.
+- Keep it plain and practical.
 
 ## Good enough
 
-The project either proves the safe test chain works locally or identifies the first failing step to fix.
+The project has a clear security model before any real smart-home control features are designed.
