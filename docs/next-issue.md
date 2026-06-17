@@ -1,6 +1,6 @@
 # Next Issue
 
-## #26 — Add public project page outline
+## #27 — Add public page copy draft
 
 ## Scope
 
@@ -8,15 +8,15 @@ Documentation only.
 
 ## Goal
 
-Create a simple outline for a future public project page.
+Turn the public project page outline into a first plain-language copy draft.
 
 ## Must do
 
-- Use existing positioning copy.
-- Explain current project status accurately.
-- Avoid implying live features are complete.
-- Include sections for purpose, current prototype, safety boundary, and roadmap.
+- Use the outline from `docs/public-project-page-outline.md`.
+- Keep status accurate.
+- Avoid overpromising.
+- Keep the copy suitable for a simple website page.
 
 ## Good enough
 
-The project has a ready outline for a future website or GitHub Pages page.
+The repo has a first draft page that can later become GitHub Pages or website content.
