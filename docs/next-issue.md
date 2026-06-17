@@ -1,6 +1,6 @@
 # Next Issue
 
-## #15 — Add README links to testing docs
+## #16 — Add project status checkpoint
 
 ## Scope
 
@@ -8,15 +8,15 @@ Documentation only.
 
 ## Goal
 
-Make the root README point clearly to the safe setup guide and test checklist.
+Create one concise status checkpoint showing what is done, what is safe to run, and what remains blocked until local testing proves the read-only path.
 
 ## Must do
 
-- Link the safe local test checklist.
-- Link the sample terminal test guide.
-- Link the local read template guide.
-- Keep the warning that the dashboard is mock-first.
+- List completed stages.
+- List safe commands.
+- List blocked features.
+- Define the next practical action.
 
 ## Good enough
 
-A new visitor can find the safe testing path from the README.
+A returning contributor can understand the project state without reading every previous issue note.
