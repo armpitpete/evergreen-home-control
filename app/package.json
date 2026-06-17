@@ -1,6 +1,6 @@
 {
   "name": "evergreen-home-control-dashboard",
-  "version": "0.12.0",
+  "version": "0.14.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +8,8 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "test:sample-states": "node scripts/read-sample-states.mjs"
+    "test:sample-states": "node scripts/read-sample-states.mjs",
+    "test:local-states:template": "node scripts/read-local-states.template.mjs"
   },
   "devDependencies": {
     "vite": "latest"
