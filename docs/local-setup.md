@@ -81,3 +81,9 @@ Do not add real device controls until the read-only connection is proven.
 ## Good enough
 
 If the mock dashboard opens and shows the summary/device cards, local setup is working.
+
+## Next safe build
+
+The next safe build is a read-only Home Assistant connector.
+
+It should read states only and send no service calls.
