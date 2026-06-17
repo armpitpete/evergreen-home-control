@@ -1,24 +1,23 @@
 # Next Issue
 
-## #10 — Add real local read-only connector guide
+## #11 — Add local command-line read test plan
 
 ## Scope
 
-Documentation first.
+Planning and code skeleton only.
 
 ## Goal
 
-Explain how to test the real Home Assistant read-only connector locally without committing any private setup values.
+Prepare a local command-line read test that proves the connector can read state data safely before the visible dashboard is connected to real data.
 
 ## Must do
 
 - Keep the visible dashboard mock-first.
-- Keep the sample connector test page.
-- Document local-only setup steps.
-- Add clear stop warnings before any real connection.
-- No service calls.
-- No device control.
+- Print high-level counts only by default.
+- Avoid full real-home device lists by default.
+- Keep controls out of scope.
+- Keep AI out of scope.
 
 ## Good enough
 
-A user can understand the next real local test step without putting private home details in the repo.
+The next implementation step is narrow, local, and safe.
