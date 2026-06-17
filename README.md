@@ -13,11 +13,12 @@ The home system should survive.
 
 ## Product positioning
 
-For the short public explanation and repo description options, see:
+For the short public explanation, repo description options, and topic suggestions, see:
 
 ```text
 docs/product-positioning.md
 docs/github-description-suggestions.md
+docs/github-topic-suggestions.md
 ```
 
 Public short description:
@@ -30,6 +31,19 @@ Recommended GitHub About description:
 
 ```text
 Local-first smart-home command centre built on Home Assistant, currently focused on safe mock dashboards, device health checks, and read-only preparation.
+```
+
+Recommended short topic set:
+
+```text
+home-assistant
+smart-home
+local-first
+open-source
+dashboard
+javascript
+privacy-first
+read-only
 ```
 
 ## Project rules and contribution
