@@ -1,0 +1,50 @@
+[
+  {
+    "entity_id": "light.sample_light",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Sample light"
+    },
+    "last_changed": "2026-06-17T10:00:00+00:00",
+    "last_updated": "2026-06-17T10:00:00+00:00"
+  },
+  {
+    "entity_id": "binary_sensor.sample_contact",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Sample contact sensor",
+      "battery_level": 92
+    },
+    "last_changed": "2026-06-17T10:05:00+00:00",
+    "last_updated": "2026-06-17T10:05:00+00:00"
+  },
+  {
+    "entity_id": "binary_sensor.sample_motion",
+    "state": "on",
+    "attributes": {
+      "friendly_name": "Sample motion sensor",
+      "battery_level": 18
+    },
+    "last_changed": "2026-06-17T10:10:00+00:00",
+    "last_updated": "2026-06-17T10:10:00+00:00"
+  },
+  {
+    "entity_id": "sensor.sample_temperature",
+    "state": "21.4",
+    "attributes": {
+      "friendly_name": "Sample temperature",
+      "unit_of_measurement": "C"
+    },
+    "last_changed": "2026-06-17T10:15:00+00:00",
+    "last_updated": "2026-06-17T10:15:00+00:00"
+  },
+  {
+    "entity_id": "switch.sample_offline_switch",
+    "state": "unavailable",
+    "attributes": {
+      "friendly_name": "Sample offline switch"
+    },
+    "last_changed": "2026-06-17T08:00:00+00:00",
+    "last_updated": "2026-06-17T08:00:00+00:00"
+  }
+]
