@@ -21,6 +21,15 @@ docs/project-rules.md
 docs/project-status-checkpoint.md
 ```
 
+## Security model
+
+Read this before designing real Home Assistant data access, controls, AI actions, cameras, locks, heating, alarms, or safety-system features:
+
+```text
+docs/security-model.md
+docs/action-permission-model.md
+```
+
 ## Open-source position
 
 This project should be open source.
@@ -139,6 +148,7 @@ Home Assistant executes confirmed actions.
 | v0.17 | Project status checkpoint | Done |
 | v0.18 | First real read-test decision | Done |
 | v0.19 | Contributor guide and project rules | Done |
+| v0.20 | Security model outline | Done |
 | v1.0 | Reliable local-first home command centre | Later |
 
 ## Repo status
