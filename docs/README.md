@@ -5,6 +5,7 @@
 | Need | File |
 |---|---|
 | Quickstart for new readers | `docs/public-quickstart.md` |
+| Printable/copyable starter checklist | `docs/public-starter-checklist.md` |
 | Understand the current project state | `docs/project-status-checkpoint.md` |
 | See the readable roadmap | `docs/milestone-roadmap.md` |
 | Understand the project purpose | `docs/product-positioning.md` |
@@ -42,6 +43,7 @@
 | Read-only connector details | `docs/home-assistant-readonly-connector.md` |
 | Real local read-only guide | `docs/real-local-readonly-connector-guide.md` |
 | First integration decision | `docs/first-integration-decision.md` |
+| Public starter checklist | `docs/public-starter-checklist.md` |
 | Public starter BOM | `docs/public-starter-bom.md` |
 | First build order guide | `docs/first-build-order-guide.md` |
 | Device compatibility rules | `docs/device-compatibility-rules.md` |
