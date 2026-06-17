@@ -28,6 +28,7 @@ Read this before designing real Home Assistant data access, controls, AI actions
 ```text
 docs/security-model.md
 docs/action-permission-model.md
+docs/threat-model-checklist.md
 ```
 
 ## Open-source position
@@ -149,6 +150,7 @@ Home Assistant executes confirmed actions.
 | v0.18 | First real read-test decision | Done |
 | v0.19 | Contributor guide and project rules | Done |
 | v0.20 | Security model outline | Done |
+| v0.21 | Threat model checklist | Done |
 | v1.0 | Reliable local-first home command centre | Later |
 
 ## Repo status
