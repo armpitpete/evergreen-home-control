@@ -1,6 +1,6 @@
 # Next Issue
 
-## #25 — Add topic/tag suggestions
+## #26 — Add public project page outline
 
 ## Scope
 
@@ -8,14 +8,15 @@ Documentation only.
 
 ## Goal
 
-Suggest GitHub topics/tags for the repository.
+Create a simple outline for a future public project page.
 
 ## Must do
 
-- Suggest 8 to 12 repository topics.
-- Keep them accurate to the current project state.
-- Avoid implying live control features are already complete.
+- Use existing positioning copy.
+- Explain current project status accurately.
+- Avoid implying live features are complete.
+- Include sections for purpose, current prototype, safety boundary, and roadmap.
 
 ## Good enough
 
-The repo has ready-to-use topic suggestions for GitHub.
+The project has a ready outline for a future website or GitHub Pages page.
