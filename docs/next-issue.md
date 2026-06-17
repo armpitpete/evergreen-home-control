@@ -1,6 +1,6 @@
 # Next Issue
 
-## #35 — Add first build order guide
+## #36 — Add public quickstart guide
 
 ## Scope
 
@@ -8,15 +8,14 @@ Documentation only.
 
 ## Goal
 
-Create a simple build order for a public starter setup.
+Create one short starting page for new readers.
 
 ## Must do
 
-- Keep it step-by-step.
-- Use the public starter BOM.
-- Use the compatibility rules.
-- Avoid overbuilding.
+- Keep it short.
+- Link the main starter docs.
+- Avoid repeating every detail.
 
 ## Good enough
 
-A public builder knows what to do first, second, and third.
+A new reader knows where to begin.
