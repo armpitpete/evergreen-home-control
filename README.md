@@ -25,6 +25,18 @@ Then use the docs index for the full documentation map:
 docs/README.md
 ```
 
+## Public builders
+
+For people who want to build a starter system, use these in order:
+
+```text
+docs/public-starter-bom.md
+docs/first-build-order-guide.md
+docs/device-compatibility-rules.md
+```
+
+These documents explain what to buy or reuse, what order to work in, and how to choose first devices safely.
+
 ## Product positioning
 
 For the short public explanation, repo description options, and topic suggestions, see:
