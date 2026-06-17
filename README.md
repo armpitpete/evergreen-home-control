@@ -27,7 +27,7 @@ docs/open-source-position.md
 
 ## Current status
 
-The project now has a mock read-only dashboard and a read-only Home Assistant connector module.
+The project now has a mock read-only dashboard, sample test paths, and a read-only Home Assistant connector module.
 
 It can show:
 
@@ -43,7 +43,7 @@ The visible dashboard remains mock-first by default.
 
 ## Run locally
 
-See:
+Start with the safe local setup guide:
 
 ```text
 docs/local-setup.md
@@ -57,6 +57,27 @@ cd evergreen-home-control/app
 npm install
 npm run dev
 ```
+
+## Safe testing path
+
+Use these documents in order before any real local read-only Home Assistant test:
+
+```text
+docs/safe-local-test-checklist.md
+docs/command-line-sample-read-test.md
+docs/local-read-test-template.md
+docs/local-real-read-test-instructions.md
+```
+
+Useful commands from the `app` folder:
+
+```bash
+npm run dev
+npm run test:sample-states
+npm run test:local-states:template
+```
+
+The `test:local-states:template` command should refuse to run unless local runtime settings are supplied. That is intentional.
 
 ## Architecture
 
@@ -76,6 +97,7 @@ Zigbee / Matter / Thread / Wi‑Fi / ESPHome / cameras
 - It must not start with camera AI, smart locks, or heating control.
 - It must not require every device to be replaced.
 - It must not commit private access values.
+- It must not wire the visible dashboard to real home data before local read-only testing is proven.
 
 ## Safety rule
 
@@ -96,9 +118,16 @@ Home Assistant executes confirmed actions.
 | v0.6 | Safe local setup instructions | Done |
 | v0.7 | Read-only Home Assistant connector | Done |
 | v0.8 | Open-source boundary | Done |
-| v0.9 | Local connector test mode | Next |
+| v0.9 | Sample connector test mode | Done |
+| v0.10 | Licence review and local read guide | Done |
+| v0.11 | First real integration method decision | Done |
+| v0.12 | Command-line sample read test | Done |
+| v0.13 | Local-only real read-test instructions | Done |
+| v0.14 | Local read test template | Done |
+| v0.15 | Safe local test checklist | Done |
+| v0.16 | README testing links | Done |
 | v1.0 | Reliable local-first home command centre | Later |
 
 ## Repo status
 
-The repo is now ready for a local mock-dashboard run and future local read-only Home Assistant connector testing.
+The repo is ready for safe mock-dashboard testing, sample terminal testing, and local read-template testing. Real Home Assistant use must stay local-only and read-only until proven safe.
