@@ -36,6 +36,7 @@ No real Home Assistant data is wired into the dashboard yet.
 - public page copy draft
 - simple publishing plan
 - docs index
+- planning BOM
 
 ## Safe to run
 
