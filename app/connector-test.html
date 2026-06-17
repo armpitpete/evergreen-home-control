@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evergreen Home Control — Connector Test</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Evergreen Home Control v0.9</p>
+          <h1>Read-only connector test</h1>
+          <p class="lede">
+            Local test screen for reading Home Assistant state data. It sends no service calls and does not store entered values.
+          </p>
+        </div>
+        <section class="status-card" aria-labelledby="connector-status-title">
+          <h2 id="connector-status-title">Test mode</h2>
+          <p class="mode-pill">Read-only</p>
+          <p class="small">Use only on your own local Home Assistant instance.</p>
+        </section>
+      </header>
+
+      <section class="summary-panel" aria-labelledby="form-title">
+        <div>
+          <p class="eyebrow">Local-only setup</p>
+          <h2 id="form-title">Connection details</h2>
+          <p class="small">Nothing here is saved into the repo.</p>
+        </div>
+        <form id="connector-form" class="connector-form">
+          <label>
+            Home Assistant URL
+            <input id="ha-url" name="ha-url" type="url" placeholder="http://homeassistant.local:8123" required />
+          </label>
+          <label>
+            Local access value
+            <input id="ha-access" name="ha-access" type="password" autocomplete="off" required />
+          </label>
+          <button type="submit">Read states</button>
+        </form>
+      </section>
+
+      <section class="summary-panel" aria-labelledby="result-title">
+        <div>
+          <p class="eyebrow">Result</p>
+          <h2 id="result-title">Connector output</h2>
+        </div>
+        <div id="connector-output" class="connector-output" role="status">
+          Not tested yet.
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/connectorTestMode.js"></script>
+  </body>
+</html>
