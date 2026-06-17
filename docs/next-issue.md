@@ -1,6 +1,6 @@
 # Next Issue
 
-## #34 — Add device compatibility rules
+## #35 — Add first build order guide
 
 ## Scope
 
@@ -8,16 +8,15 @@ Documentation only.
 
 ## Goal
 
-Add simple rules for choosing starter devices that work well with the public BOM.
+Create a simple build order for a public starter setup.
 
 ## Must do
 
-- Prefer local-first compatibility.
-- Prefer devices with clear Home Assistant support.
-- Prefer low-risk starter devices.
-- Avoid sensitive systems for early builds.
-- Keep it plain and short.
+- Keep it step-by-step.
+- Use the public starter BOM.
+- Use the compatibility rules.
+- Avoid overbuilding.
 
 ## Good enough
 
-A public builder can choose first devices without guessing or buying the wrong type of kit.
+A public builder knows what to do first, second, and third.
