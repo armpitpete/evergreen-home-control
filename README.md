@@ -11,6 +11,20 @@ AI models can change.
 Protocols can change.  
 The home system should survive.
 
+## Product positioning
+
+For the short public explanation, see:
+
+```text
+docs/product-positioning.md
+```
+
+Public short description:
+
+```text
+A local-first smart-home command centre built on Home Assistant, designed to keep homes understandable, repairable, and current as devices and AI tools change.
+```
+
 ## Project rules and contribution
 
 Start here before changing the project:
