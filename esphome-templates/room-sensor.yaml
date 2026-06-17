@@ -1,0 +1,18 @@
+# Evergreen Home Control — Room Sensor Template
+# Placeholder template for temperature, humidity, light, and motion.
+
+esphome:
+  name: evergreen-room-sensor
+
+esp32:
+  board: esp32dev
+
+logger:
+
+api:
+
+ota:
+
+sensor:
+  - platform: uptime
+    name: "Evergreen Room Sensor Uptime"
