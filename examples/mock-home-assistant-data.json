@@ -1,0 +1,48 @@
+{
+  "generated_for": "Evergreen Home Control v0.1",
+  "rooms": [
+    {
+      "name": "Living room",
+      "devices": [
+        {
+          "entity_id": "light.living_room_lamp",
+          "type": "light",
+          "state": "on",
+          "health": "healthy",
+          "local_capable": true
+        },
+        {
+          "entity_id": "sensor.living_room_motion",
+          "type": "motion_sensor",
+          "state": "clear",
+          "health": "healthy",
+          "battery": 84
+        }
+      ]
+    },
+    {
+      "name": "Hall",
+      "devices": [
+        {
+          "entity_id": "binary_sensor.front_door",
+          "type": "door_sensor",
+          "state": "closed",
+          "health": "low_battery",
+          "battery": 12
+        },
+        {
+          "entity_id": "sensor.hall_motion",
+          "type": "motion_sensor",
+          "state": "unknown",
+          "health": "stale",
+          "last_seen_days": 3
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Living room lamp is on.",
+    "Front door sensor battery is low.",
+    "Hall motion sensor has not reported for 3 days."
+  ]
+}
