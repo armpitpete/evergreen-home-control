@@ -30,6 +30,7 @@ docs/README.md
 For people who want to build a starter system, use these in order:
 
 ```text
+docs/public-starter-checklist.md
 docs/public-starter-bom.md
 docs/first-build-order-guide.md
 docs/device-compatibility-rules.md
