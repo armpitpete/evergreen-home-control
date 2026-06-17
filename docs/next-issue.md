@@ -1,24 +1,22 @@
 # Next Issue
 
-## #13 — Add local-only real read test script skeleton
+## #14 — Add safe local test checklist
 
 ## Scope
 
-Code skeleton only, with no private setup values.
+Documentation only.
 
 ## Goal
 
-Prepare the structure for a future local-only real read test while keeping the public repo safe.
+Create a short checklist for running the mock dashboard, sample connector page, sample terminal test, and local read template in the correct order.
 
 ## Must do
 
+- Keep the steps short.
+- Define pass/fail signs.
 - Keep the visible dashboard mock-first.
-- Keep sample tests working.
-- Add only a skeleton or template.
-- Make clear that local setup values are not committed.
-- Keep output high-level by default.
-- Send no service calls.
+- Stop before controls, AI, cameras, locks, heating, alarms, smoke, or safety systems.
 
 ## Good enough
 
-The repo has a safe placeholder for the first real local read test without containing private details or controlling devices.
+A user can follow one checklist before attempting any real local read-only test.
