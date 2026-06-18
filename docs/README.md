@@ -16,6 +16,7 @@
 | Choose compatible starter devices | `docs/device-compatibility-rules.md` |
 | See the planning BOM | `docs/planning-bom.md` |
 | Prepare the home inventory | `docs/home-inventory-worksheet.md` |
+| Resume a home-PC session | `docs/local-session-trigger.md` |
 
 ## Setup and safe testing
 
@@ -27,6 +28,7 @@
 | Understand the local read template | `docs/local-read-test-template.md` |
 | Understand the future real local read test | `docs/local-real-read-test-instructions.md` |
 | See the first real read-test decision | `docs/first-real-read-test-decision.md` |
+| Use the `I’m home` trigger | `docs/local-session-trigger.md` |
 
 ## Safety and security
 
@@ -50,6 +52,7 @@
 | Device compatibility rules | `docs/device-compatibility-rules.md` |
 | Planning BOM | `docs/planning-bom.md` |
 | Home inventory worksheet | `docs/home-inventory-worksheet.md` |
+| Local session trigger | `docs/local-session-trigger.md` |
 
 ## Open-source and contribution
 
@@ -82,12 +85,18 @@ They are useful for history, but most readers should start with the documents ab
 
 ## Current practical next action
 
-When working on the real computer, run:
+When the user says `I’m home`, use:
 
 ```text
-docs/safe-local-test-checklist.md
+docs/local-session-trigger.md
 ```
 
-Use the inventory worksheet privately while checking what already exists at home.
+For Evergreen, the first physical action is:
+
+```text
+Start Docker Desktop.
+```
+
+Then run `docker ps`. Continue Home Assistant Stage 2 only if Docker works. Do not pair real devices yet.
 
 Until then, continue with documentation, mock-data cleanup, or planning work only.
