@@ -1,23 +1,22 @@
 # Next Issue
 
-## Home checklist
+## PC-later plan
 
 ## Scope
 
-User-run validation.
+User-run validation on the target PC.
 
 ## Goal
 
-Run the safe local checklist on the target computer.
+Continue from the saved PC-later task plan.
 
 ## Must do
 
-- Open `docs/release-checkpoint-v0.40.md`.
-- Open `docs/safe-local-test-checklist.md`.
-- Run the checklist steps in order.
-- Keep private setup values out of GitHub.
-- Report the first failing step if anything fails.
+- Open `docs/pc-later-task-plan.md`.
+- Start Docker Desktop.
+- Run `docker ps`.
+- Continue only if Docker works.
 
 ## Good enough
 
-The safe local checklist is completed or the first failing step is identified.
+Docker is confirmed working, or the first Docker failure is identified.
