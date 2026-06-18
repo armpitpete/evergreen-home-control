@@ -162,6 +162,23 @@ npm run test:local-states:template
 
 The `test:local-states:template` command should refuse to run unless local runtime settings are supplied. That is intentional.
 
+## Local-session trigger
+
+When the user says `I’m home`, show the home-PC tasks for the active project, in order, starting with the next physical action.
+
+For Evergreen Home Control, the current home-PC task list starts:
+
+1. Start Docker Desktop.
+2. Run `docker ps`.
+3. Continue Home Assistant Stage 2 only if Docker works.
+4. Do not pair real devices yet.
+
+Full note:
+
+```text
+docs/local-session-trigger.md
+```
+
 ## Architecture
 
 ```text
